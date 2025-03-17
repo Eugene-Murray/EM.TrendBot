@@ -42,7 +42,7 @@ namespace cAlgo.Robots
         [Parameter("Volume (Lots)", DefaultValue = 1, Group = "Trade")]
         public double VolumeInLots { get; set; }
 
-        [Parameter("Stop Loss (Pips)", DefaultValue = 10, MaxValue = 2000, MinValue = 1, Step = 1)]
+        [Parameter("Stop Loss (Pips)", DefaultValue = 200, MaxValue = 2000, MinValue = 1, Step = 1)]
         public double StopLossInPips { get; set; }
 
         [Parameter("Take Profit (Pips)", DefaultValue = 0, MaxValue = 10000, MinValue = 0, Step = 1)]
